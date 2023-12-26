@@ -2,15 +2,15 @@
 
 - - - 
 
-*Given an array of integers `nums` and an integer `target` - return _indices of the two numbers such that they add up to `target`_.*
+*Given an array of integers `nums` and an integer `target` - return indices of the two numbers such that they add up to `target`.*
 
-*You may assume that each input would have **_exactly_ one solution** - and you may not use the _same_ element twice.*
+*You may assume that each input would have **exactly one solution** - and you may not use the same element twice.*
 
 *You can return the answer in any order.*
 
 - - - 
 
-***Solution***
+***Solution (Brute Force)***
 
 ```cpp
 class Solution {
@@ -36,5 +36,35 @@ public:
 - *If the numbers sum to the target - add the indices to the array*
 - *Return the array*
 
+- ***Time Complexity: $O(n^2)$*** 
+- *Outer Loop iterates from first element to second-to-last element & Inner Loop iterates from next elements to last element*
 
+- - - 
+
+***Solution (Hash Table)***
+
+```cpp
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> m;
+        int n = nums.size();
+        for(int i=0;i<n;i++){
+            int comp = target - nums[i];
+            if(m.count(comp)) return {m[comp], i};
+            m[nums[i]] = i;
+        }
+        return {};
+    }
+};
+```
+
+- *Create a Hash Table (unordered map) to store elements & their indices*
+- *Iterate through the array - calculating the complement (target - num) & checking if the complement exists in the Hash Table (previous number in the array is the complement)*
+- *If the complement exists - found a solution to the problem (as num + complement = target)*
+- *Otherwise - add current element nums[i] to Hash Table with index as value & nums[i] as key*
+- *Repeat until a solution found or end of array reached*#
+
+- ***Time Complexity: $O(n)$*
+- *only one pass through the array*
 
