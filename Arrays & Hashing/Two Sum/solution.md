@@ -41,6 +41,11 @@ public:
 - ***Time Complexity:*** $O(n^2)$
 - *Outer Loop iterates from first element to second-to-last element & Inner Loop iterates from next elements to last element*
 
+<br>
+
+- ***Space Complexity:*** $O(1)$
+- *Constant additional storage for indices & i & j*
+
 - - - 
 
 ***Solution (Hash Table)***
@@ -71,4 +76,12 @@ public:
 
 - ***Time Complexity:*** $O(n)$
 - *Only one pass through the array*
+
+<br>
+
+- ***Space Complexity:*** $O(1)$
+- *Constant additional storage for indices & i & j*
+
+
+
 
