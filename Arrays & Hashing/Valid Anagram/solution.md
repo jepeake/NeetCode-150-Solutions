@@ -2,9 +2,11 @@
 
 - - - 
 
-*Given two strings `s` and `t` - return `true` _if_ `t` _is an anagram of_ `s`_, and_ `false` _otherwise_.*
+*Given two strings `s` and `t` - return `true` _if_ `t` _is an anagram of_ `s`_ - and_ `false` _otherwise_.*
 
-*An **Anagram** is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.*
+*An **Anagram** is a word or phrase formed by rearranging the letters of a different word or phrase - typically using all the original letters exactly once.*
+
+- - - 
 
 ***Solution 1***
 
@@ -28,6 +30,8 @@ public:
 - *For each pair in the map - check the frequencies - and return false if it is not equal to 0*
 - *Otherwise - all the frequencies =0 - and can return true - is an anagram*
 
+- - - 
+
 ***Solution 2***
 
 ```cpp
@@ -42,7 +46,7 @@ bool isAnagram(string s, string t) {
 ```
 
 - *Sort strings s & t in alphabetical order*
-- *Once sorted - if the strings s & t are the same - there is an anagram
+- *Once sorted - if the strings s & t are the same - there is an anagram*
 
 
 
