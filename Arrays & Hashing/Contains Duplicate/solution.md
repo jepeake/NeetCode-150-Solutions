@@ -27,3 +27,14 @@ public:
 
 - - - 
 
+ ***Complexity:***
+
+- ***Time Complexity:***
+- $O(n)$
+- *Iterate through array once & Iterate through map once (2n → simplifies to n) (assuming hash map operations take constant time)*
+
+<br>
+
+- ***Space Complexity:***
+- $O(n)$
+- *No Duplicates - Hash Map contains entry for each element with count 1*
