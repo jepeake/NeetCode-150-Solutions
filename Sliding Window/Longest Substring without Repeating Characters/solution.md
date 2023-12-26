@@ -2,13 +2,13 @@
 
 - - - 
 
-*Given a string `s`, find the length of the **longest** **substring** without repeating characters*
+*Given a string `s` - find the length of the **longest** **substring** without repeating characters*
 
 - - - 
 
 ***Solution***
 
-- *→ sliding window*
+*→ sliding window*
 
 ```cpp
 class Solution {
@@ -53,6 +53,8 @@ public:
 ***Time Complexity:***
 - $O(n)$
 - *One pass through the string*
+
+<br>
 
 ***Space Complexity:***
 - $O(n)$
