@@ -12,6 +12,8 @@
 
 ***Solution***
 
+→ *Sliding Window*
+
 ```cpp
 class Solution {
 public:
@@ -26,9 +28,8 @@ public:
 };
 ```
 
-- *Sliding Window needed
 - *Start with the left and right pointers at 0*
-- *Expand the window to the right
+- *Expand the window to the right*
 - *If the right value is greater than the left value - compute the difference & compare to the current max profit*
 - *If the right value is less than the left value - move the L pointer to R (this is the smallest value you can buy the stock for - which is what we want)*
 - *Increment R to expand to the right*
