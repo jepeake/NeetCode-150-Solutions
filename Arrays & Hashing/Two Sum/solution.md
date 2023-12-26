@@ -36,7 +36,9 @@ public:
 - *If the numbers sum to the target - add the indices to the array*
 - *Return the array*
 
-- ***Time Complexity: $O(n^2)$*** 
+<br>
+
+- ***Time Complexity:*** $O(n^2)$
 - *Outer Loop iterates from first element to second-to-last element & Inner Loop iterates from next elements to last element*
 
 - - - 
@@ -63,8 +65,10 @@ public:
 - *Iterate through the array - calculating the complement (target - num) & checking if the complement exists in the Hash Table (previous number in the array is the complement)*
 - *If the complement exists - found a solution to the problem (as num + complement = target)*
 - *Otherwise - add current element nums[i] to Hash Table with index as value & nums[i] as key*
-- *Repeat until a solution found or end of array reached*#
+- *Repeat until a solution found or end of array reached*
 
-- ***Time Complexity: $O(n)$*
-- *only one pass through the array*
+<br>
+
+- ***Time Complexity:*** $O(n)$
+- *Only one pass through the array*
 
