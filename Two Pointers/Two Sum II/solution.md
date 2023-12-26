@@ -34,7 +34,9 @@ public:
 - *if the sum is too large -decrement the R pointer (removing the largest element from the possible values)*
 - *if the sum is too small - increment the L pointer (removing the smallest element from the possible values)*
 
-- ***Time Complexity: $O(n)$*
+<br>
+
+- ***Time Complexity:*** $O(n)$
 - *Only max. one pass through the array*
 
 - - -
@@ -63,7 +65,9 @@ public:
 - *Otherwise - add current element nums[i] to Hash Table with index as value & nums[i] as key*
 - *Repeat until a solution found or end of array reached*#
 
-- ***Time Complexity: $O(n)$*
+<br>
+
+- ***Time Complexity:*** $O(n)$
 - *Only one pass through the array*
 
 
