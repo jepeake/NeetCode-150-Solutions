@@ -1,12 +1,8 @@
-- - - 
-
 ***Contains Duplicate***
 
 - - - 
 
-*Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.*
-
-- - - 
+*Given an integer array `nums` - return `true` if any value appears **at least twice** in the array - and return `false` if every element is distinct.*
 
 ***Solution***
 
@@ -22,10 +18,10 @@ public:
 };
 ```
 
-- *create a HashMap using unordered map in C++*
-- *iterate through each number in nums array & increment the HashMap count for that number*
-- *iterate through each pair in the HashMap, if the count > 1, return true (duplicates)*
-- *else, return false (no duplicates)
+- *Create a HashMap using unordered map in C++*
+- *Iterate through each number in nums array & increment the HashMap count for that number*
+- *Iterate through each pair in the HashMap - if the count > 1 - return true (duplicates)*
+- *Else - return false (no duplicates)*
 
 - - - 
 
