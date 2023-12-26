@@ -4,7 +4,7 @@
 
 *Given an array of strings `strs` - group **the anagrams** together. You can return the answer in **any order**.*
 
-*An **Anagram** is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.*
+*An **Anagram** is a word or phrase formed by rearranging the letters of a different word or phrase - typically using all the original letters exactly once.*
 
 - - - 
 
@@ -27,8 +27,8 @@ public:
 };
 ```
 
-- *Create an Unordered Map - which uses a string as the key & a vector of strings as the values - used to store the groups of anagrams
-- *For each string in the vector strs - create a copy of the string & sort the copy
+- *Create an Unordered Map - which uses a string as the key & a vector of strings as the values - used to store the groups of anagrams*
+- *For each string in the vector strs - create a copy of the string & sort the copy*
 - *Use the sorted copy of each string in the vector as a key to the map - adding the corresponding original string to the sorted key*
 - *This creates a key-value pair - with a key which is unique for each anagram (as words corresponding to the same anagram will give the same characters when sorted alphabetically) & a value which contains the set of anagrams corresponding to this unique key*
 - *Therefore - grouping all of the same anagrams together in the same map vector value*
