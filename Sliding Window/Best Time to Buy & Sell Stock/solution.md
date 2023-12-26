@@ -34,7 +34,9 @@ public:
 - *Increment R to expand to the right*
 - *When we are expanding to the right, we are comparing each value in the future to the smallest value we could purchase for on day L -  if the profit is greater than the profit would could have achieved so far - update the max profit value*
 
-<br>
+- - - 
+
+***Complexity***
 
 - ***Time Complexity*** $O(n)$
 - *One pass through array*
