@@ -39,6 +39,11 @@ public:
 - ***Time Complexity:*** $O(n)$
 - *Only max. one pass through the array*
 
+<br>
+
+- ***Space Complexity:*** $O(1)$
+- *Constant additonal space for L & R*
+
 - - -
 
 ***Solution (Hash Table)***
@@ -69,6 +74,13 @@ public:
 
 - ***Time Complexity:*** $O(n)$
 - *Only one pass through the array*
+
+<br>
+
+- ***Space Complexity:*** $O(n)$
+- *Worse case scenario - all elements added to Hash Map*
+
+
 
 
 
