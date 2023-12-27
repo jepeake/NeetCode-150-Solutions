@@ -32,7 +32,7 @@ public:
 };
 ```
 
-- *To find product of all elements except self in $O(n)$ time (without Brute Force) - need to use Prefix & Postfix Products*
+- *To find product of all elements except self in* $O(n)$ *time (without Brute Force) - need to use Prefix & Postfix Products*
 - *Product of all Elements Except Self = Prefix Product * Postfix Product*
 - *Initialise a results vector of all 1s (needed to calculations) & set prefix sum and postfix sum to 1 (will = 1 at start and end of array respectively)*
 - *The result of the two loops (one from beginning and one from end of array) is that res[i] (initially) 1 is multiplied by it’s prefix product & postfix product - and the prefix and suffix product values are updated as the iteration continues by multiplying with the current value in nums*
