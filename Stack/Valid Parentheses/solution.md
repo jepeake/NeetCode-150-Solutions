@@ -47,10 +47,10 @@ public:
 };
 ```
 
-- *Use a stack of characters to store open brackets in the string
+- *Use a stack of characters to store open brackets in the string*
 - *If the first character was a closed bracket - broke the rules → false*
 - *Then - iterate through the string s - looking at each character - if it is an open bracket - push it to the stack*
-- *Otherwise - if the stack is not empty - check the top of the stack and the closed bracket in the string - if they do not match (not closed in order correctly) then return false
+- *Otherwise - if the stack is not empty - check the top of the stack and the closed bracket in the string - if they do not match (not closed in order correctly) then return false*
 - *If they do close correctly - pop that open bracket off the stack - and iterate again to the next character in the string*
 - *If we get through the string without returning false - check the size of the stack - if its 0 return true (all brackets closed successfully)*
 
@@ -58,11 +58,11 @@ public:
 
 ***Complexity***
 
-- ***Time Complexity: $O(n)$***
+- ***Time Complexity:*** $O(n)$
 - *One pass through the string*
 
 <br>
 
-- ***Space Complexity: $O(n)$***
+- ***Space Complexity:*** $O(n)$
 - *Worst Case - all characters are open brackets*
 
