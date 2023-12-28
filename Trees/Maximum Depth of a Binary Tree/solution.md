@@ -33,7 +33,7 @@ public:
 ```
 
 - ***Recursion***
-- *Assume given Max Depth of Left Subtree & Right Subtree
+- *Assume given Max Depth of Left Subtree & Right Subtree*
 - *Max Depth of Tree = Max(Max Depth of Left Subtree, Max Depth of Right Subtree) + 1*
 - *Recursively Call function to take the maximum out of two depths & add 1*
 - *Base Case: Leaf Node → Return Depth as 0*
